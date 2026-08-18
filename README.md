@@ -1,4 +1,4 @@
-# ⚡ PDF ChatBot — Powered by Groq
+# PDF ChatBot — Powered by Groq
 
 A fast, lightweight desktop chatbot that lets you upload any PDF and ask questions about it — powered by Groq's free LLaMA API. Built with Python and Tkinter, no internet browser required.
 
@@ -8,25 +8,25 @@ A fast, lightweight desktop chatbot that lets you upload any PDF and ask questio
 
 ---
 
-## 📸 Preview
+## Preview
 
 > Dark-themed desktop UI with a violet accent, real-time chat, and PDF status indicator.
 
 ---
 
-## ✨ Features
+## Features
 
-- 📄 **Full PDF reading** — indexes every page, no page limits
-- 🔍 **Smart retrieval** — finds the most relevant sections per question using keyword + phrase scoring
-- 🔢 **Roman numeral aware** — asking "article 7" correctly finds "ARTICLE VII" and vice versa
-- ⚡ **Groq-powered** — uses LLaMA 3.3 70B for fast, free AI responses
-- 🖥️ **Native desktop UI** — built with Tkinter, runs offline (no browser needed)
-- 💬 **Conversation memory** — remembers the last 6 turns for follow-up questions
-- 🔄 **Auto-retry** — handles rate limits and server errors gracefully
+-  **Full PDF reading** — indexes every page, no page limits
+-  **Smart retrieval** — finds the most relevant sections per question using keyword + phrase scoring
+-  **Roman numeral aware** — asking "article 7" correctly finds "ARTICLE VII" and vice versa
+-  **Groq-powered** — uses LLaMA 3.3 70B for fast, free AI responses
+-  **Native desktop UI** — built with Tkinter, runs offline (no browser needed)
+-  **Conversation memory** — remembers the last 6 turns for follow-up questions
+-  **Auto-retry** — handles rate limits and server errors gracefully
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 pdf-chatbot/
@@ -38,7 +38,7 @@ pdf-chatbot/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 
@@ -97,7 +97,7 @@ This approach means the full document is always indexed, but only the relevant p
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 All tuning knobs are at the top of `chatbot.py`:
 
@@ -109,7 +109,7 @@ All tuning knobs are at the top of `chatbot.py`:
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 | Package | Purpose |
 |---|---|
@@ -119,7 +119,7 @@ All tuning knobs are at the top of `chatbot.py`:
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 - Works best with **text-based PDFs** — scanned/image PDFs have no extractable text
 - Groq's free tier has **rate limits** — the app retries automatically, but very long sessions may hit limits
@@ -127,6 +127,6 @@ All tuning knobs are at the top of `chatbot.py`:
 
 ---
 
-## 📄 License
+## License
 
 MIT — free to use, modify, and distribute.
